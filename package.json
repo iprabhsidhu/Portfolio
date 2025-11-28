@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
+    "homepage": "https://iprabhsidhu.github.io/portfolio/",
     "predeploy" : "npm run build",
     "deploy": "gh-pages -d dist"
   },
