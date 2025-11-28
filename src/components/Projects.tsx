@@ -15,17 +15,17 @@ function Projects() {
       id: 1,
       title: 'Shadow World',
       description: 'A stunning open-world environment RPG developed while learning and starting into the game development.',
-      category: 'Game Development',
-      image: 'https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['Unreal Engine 5', 'Blueprint', 'Gameplay', 'C++', 'RPG'],
+      category: 'Game',
+      image: 'RPG.jpg',
+      tags: ['Unreal Engine 5', 'Blueprint', 'C++', 'RPG'],
     },
     {
       id: 2,
-      title: 'Last Battalion',
-      description: 'An extraction genre military shooter based in post apocolyptic world.',
-      category: 'Extraction',
-      image: 'https://images.pexels.com/photos/1005012/pexels-photo-1005012.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['UE5', 'Multiplayer', 'C++', 'Extraction'],
+      title: '(Under development)',
+      description: 'An extraction genre game under development in Unreal Engine 5.',
+      category: 'Game',
+      image: 'UE_Logo.png',
+      tags: ['UE5', 'Multiplayer', 'Blueprint', 'C++', 'Extraction'],
     },
   ];
 
@@ -35,7 +35,7 @@ function Projects() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">My Projects</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            A showcase of my recent work in Unreal Engine, in the gameplay programming and game development.
+            A showcase of my work in Unreal Engine, in the gameplay programming and game development.
           </p>
         </div>
 
@@ -51,11 +51,11 @@ function Projects() {
                   alt={project.title}
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-4">
+                {/*<div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-4">
                   <button className="flex items-center gap-2 px-4 py-2 bg-white text-gray-900 rounded-lg font-medium">
                     View Details <ExternalLink size={16} />
                   </button>
-                </div>
+                </div>*/}
               </div>
               <div className="p-6">
                 <span className="text-sm text-blue-500 font-medium">

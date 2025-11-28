@@ -5,9 +5,6 @@ function Footer() {
         <p className="mb-2">
           © {new Date().getFullYear()} Prabhdeep S. Singh. All rights reserved.
         </p>
-        <p className="text-sm">
-          Built with React, TypeScript, and Tailwind CSS
-        </p>
       </div>
     </footer>
   );

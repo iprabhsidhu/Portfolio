@@ -48,7 +48,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="bg-gray-800 p-8 rounded-lg">
+        {/*<div className="bg-gray-800 p-8 rounded-lg">
           <h3 className="text-2xl font-bold text-white mb-6">Send a Message</h3>
           <form className="space-y-4">
             <div className="grid md:grid-cols-2 gap-4">
@@ -80,7 +80,7 @@ function Contact() {
               Send Message
             </button>
           </form>
-        </div>
+        </div>*/}
       </div>
     </section>
   );
