@@ -25,7 +25,7 @@ function About() {
           <div className="relative">
             <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/src/img/Headshot.png"
+                src="/Headshot.png"
                 alt="Headshot"
                 className="w-full h-full object-cover"
               />
